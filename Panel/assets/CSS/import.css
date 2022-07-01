@@ -1,0 +1,124 @@
+#body, body {
+  text-decoration: none;
+}
+
+#body a, body a {
+  text-decoration: none;
+}
+
+#margin-top, #follower {
+  margin-top: 50px;
+}
+
+#transition {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body {
+  height: 100%;
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.navbar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 5px #000000;
+          box-shadow: 0px 0px 10px 5px #000000;
+}
+
+.navbar .logo img {
+  height: 40px;
+}
+
+#attention .container .row .atn {
+  padding-top: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  height: 200px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-weight: bold;
+}
+
+#attention .container .row .atn h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#attention .container .row .atn p {
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#follower .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#follower .container .row .card {
+  margin: 10px;
+  height: 300px;
+  width: 250px;
+  border: none;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 10px 1px #aaaaaaaa;
+          box-shadow: 0px 0px 10px 1px #aaaaaaaa;
+}
+
+#follower .container .row .card .logo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#follower .container .row .card .logo img {
+  height: 50px;
+}
+
+#follower .container .row .card .body {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#follower .container .row .card .body p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#follower .container .row .card .btn a {
+  border: 1px solid #000000;
+  padding: 10px 35px 10px 35px;
+  border-radius: 10px;
+}
+
+#follower .container .row .card .btn a span {
+  color: #000000;
+}
+
+#follower .container .row .card .btn a:hover {
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  border: navajowhite;
+}
+
+#follower .container .row .card .btn a:hover span {
+  color: white;
+}
+/*# sourceMappingURL=import.css.map */
